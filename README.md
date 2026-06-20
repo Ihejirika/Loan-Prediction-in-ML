@@ -53,3 +53,22 @@ Three classification algorithms were built, tested, and scored using **Accuracy*
   [[9684  809]
    [ 824 2183]]
 
+### 2. Decision Tree
+The Decision Tree Classifier breaks down the loan application features into a flowchart-like structure of business rules based on feature thresholds (e.g., verifying if an applicant's `Credit Score` falls above or below a specific risk line). 
+
+* **Accuracy:** 0.8973 (89.73%)
+* **Precision:** 0.7643
+* **F1-Score:** 0.7718
+* **Confusion Matrix:**
+  ```text
+  [[9770  723]
+   [ 663 2344]]
+
+### 3. Random Forest
+* **Accuracy:** 0.9247 (92.47%)
+* **Precision:** 0.8795
+* **F1-Score:** 0.8195
+* **Confusion Matrix:**
+	```text
+	[[10177   316]
+ [  700  2307]]
