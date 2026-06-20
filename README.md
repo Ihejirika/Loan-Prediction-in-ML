@@ -72,3 +72,10 @@ The Decision Tree Classifier breaks down the loan application features into a fl
 	```text
 	[[10177   316]
  [  700  2307]]
+
+---
+
+## Key Findings & Conclusion
+* **Ensemble Superiority:** Tree-based ensemble learning outperformed traditional linear baselines significantly.
+* **Optimal Model:** The Random Forest Classifier achieved the highest overall score with 92.47% accuracy.
+* **Risk Mitigation:** For deployment in an automated financial ecosystem, Random Forest demonstrated a stellar Precision score of 0.8795. This critically minimizes False Positives (approving a loan for a high-risk applicant), saving financial institutions from unexpected defaults.
